@@ -30,7 +30,7 @@ public class DZ6 {
             System.out.println("Зеленый");
         } else if (c >= 3 && c < 4) {
             System.out.println("Желтый");
-        } else if (c >= 4 && c<5) {
+        } else if (c >= 4 && c < 5) {
             System.out.println("Красный");
         }
     }
