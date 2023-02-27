@@ -9,6 +9,9 @@ public class dz2 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер месяца от 1 до 12: ");
         int month = in.nextInt();
+        if (month>7){
+            month++;
+        }
         if (month == 2) {
             System.out.println("В месяце 28 дней, 29 в високосный год");
         } else if (month % 2 == 0) {
